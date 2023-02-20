@@ -14,6 +14,7 @@
     text-align: center;
     margin-left: auto;
     margin-right: auto;
+    overflow: auto;
 
 }
 
@@ -104,4 +105,9 @@ header {
     color: salmon;
     
 }
+
+textarea {
+    width: 200px;
+    height: 30px;
+  }
 
