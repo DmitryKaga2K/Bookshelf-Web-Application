@@ -1,24 +1,32 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-<title>Interactive Bookshelf - Title Page</title>
-<link rel="stylesheet" href="main.css"/>
+<title>Bookshelf</title>
+<link rel="stylesheet" href="main.css">
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css" integrity="sha512-MV7K8+y+gLIBoVD59lQIYicR65iaqukzvf/nwasF0nqhPay5w/9lJmVM2hMDcnK1OnMGCdVK+iQrJ7lzPJQd1w==" crossorigin="anonymous" referrerpolicy="no-referrer" />
 <meta charset="UTF-8">
 <meta http-equiv="X-UA-Compatible" content="IE=edge">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 </head>
-<body id="title-page">
-<div class="title-page">
-<div class="title-box">
-    <h1>Welcome to the Interactive Bookshelf</h1>
-    <p>Here you can browse and add books to your virtual bookshelf.</p>
-    <p>Don't forget to leave comments.</p>
-    <p>     
-    <button class="my-button"><a href="main.html">Enter</a></button>
-    </p>
-</div>
-</div>
+<body>
+<header>
+    <span class="name"><a href="index.html">INTERACTIVE BOOKSHELF</a></span>
+    <a href="index.html"></a>
+    <nav>
+        <a href="main.html">HOME</a>
+        <a href="about.html">ABOUT</a>
+        <a href="contact.html">CONTACT US</a>
+    </nav>
+    <button onclick="addNewBook()">Add Book</button>
+</header>
+
+<div id="bookshelf-container"></div>
+
+<script src="js/book-data.js"></script>
+<script src="book.js"></script>
+<script src="bookshelf.js"></script>
+<script src="index.js"></script>
+
 <footer>
     <a href="https://www.instagram.com/">
         <i class="fa-brands fa-instagram" style="font-size: 2rem;"></i>
@@ -34,7 +42,3 @@
 </footer>
 </body>
 </html>
-
-
-
-
