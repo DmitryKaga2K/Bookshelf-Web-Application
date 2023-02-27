@@ -26,9 +26,9 @@ render() {                                                  //create a seperate 
   const bookContainer = document.createElement("div");      //set inner text of each element to the title, language, subject, author and comment property
   bookContainer.classList.add("book");                      //append elements
 
-  const title = document.createElement("h5");               // add box for text input limit comment to 280 words
-  title.innerText = this.title;                             // add text area and button for commentor to click with message of 'Enter comment!
-  bookContainer.appendChild(title);                         // add event listner for the click event when commenting
+  const title = document.createElement("h5");               //add box for text input limit comment to 280 words
+  title.innerText = this.title;                             //add text area and button for commentor to click with message of 'Enter comment!
+  bookContainer.appendChild(title);                         //add event listner for the click event when commenting
 
   const language = document.createElement("p");
   language.innerText = `Language: ${this.language.toUpperCase()}`;
